@@ -12,11 +12,11 @@ Classificou-se se a produção municipal no ano t diminuiu pelo menos 10% em rel
 
 ## Resultados no teste
 
-| Modelo               |   Precisão |   Sensibilidade |    F1 |   Acurácia balanceada |   Average precision |   ROC-AUC |
-|:---------------------|-----------:|----------------:|------:|----------------------:|--------------------:|----------:|
-| Sem queda (baseline) |      0,000 |           0,000 | 0,000 |                 0,500 |               0,241 |     0,500 |
-| Random Forest        |      0,223 |           0,294 | 0,254 |                 0,484 |               0,236 |     0,488 |
-| XGBoost              |      0,000 |           0,000 | 0,000 |                 0,498 |               0,242 |     0,500 |
+| Modelo               |   Precisão |   Sensibilidade |    F1 |   Acurácia balanceada |   Precisão média |   ROC-AUC |
+|:---------------------|-----------:|----------------:|------:|----------------------:|-----------------:|----------:|
+| Sem queda (baseline) |      0,000 |           0,000 | 0,000 |                 0,500 |            0,241 |     0,500 |
+| Random Forest        |      0,223 |           0,294 | 0,254 |                 0,484 |            0,236 |     0,488 |
+| XGBoost              |      0,000 |           0,000 | 0,000 |                 0,498 |            0,242 |     0,500 |
 
 O modelo com maior average precision foi XGBoost (0.242); a prevalência da classe positiva foi 0.241, referência para interpretar essa métrica. O limiar não foi modificado e o modelo não foi reajustado com os anos de teste.
 

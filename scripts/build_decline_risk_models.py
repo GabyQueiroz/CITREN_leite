@@ -203,8 +203,8 @@ def main() -> None:
         ax.set_title(name, fontsize=9)
         ax.set_xticks([0, 1], ["Sem queda", "Queda"])
         ax.set_yticks([0, 1], ["Sem queda", "Queda"])
-        ax.set_xlabel("Clase prevista", fontsize=7)
-        ax.set_ylabel("Clase real", fontsize=7)
+        ax.set_xlabel("Classe prevista", fontsize=7)
+        ax.set_ylabel("Classe real", fontsize=7)
         ax.tick_params(labelsize=7)
         for (row, col), value in np.ndenumerate(matrix):
             ax.text(col, row, str(value), ha="center", va="center", fontsize=9,
@@ -221,7 +221,7 @@ def main() -> None:
         "recall": "Sensibilidade",
         "f1": "F1",
         "balanced_accuracy": "Acurácia balanceada",
-        "average_precision": "Average precision",
+        "average_precision": "Precisão média",
         "roc_auc": "ROC-AUC",
     }).to_markdown(index=False, floatfmt=".3f").replace(".", ",")
     n_observations = f"{len(panel):,}".replace(",", ".")
