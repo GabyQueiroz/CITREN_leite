@@ -1,0 +1,4 @@
+modelo,precision,recall,f1,balanced_accuracy,average_precision,roc_auc,hiperparametros
+Sem queda (baseline),0.0,0.0,0.0,0.5,0.24143692564745195,0.5,Regra fixa: todos os anos classificados sem queda
+Random Forest,0.2230971128608924,0.29411764705882354,0.2537313432835821,0.48406322881575536,0.23638047274172252,0.48841135313933814,"{""model__max_depth"": 12, ""model__min_samples_leaf"": 5, ""model__n_estimators"": 500}"
+XGBoost,0.0,0.0,0.0,0.4983480176211454,0.24183564987893683,0.500137188848071,"{""model__colsample_bytree"": 0.8, ""model__learning_rate"": 0.08, ""model__max_depth"": 2, ""model__n_estimators"": 150, ""model__subsample"": 0.8}"

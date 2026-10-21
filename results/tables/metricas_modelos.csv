@@ -1,4 +1,4 @@
 modelo,MAE,RMSE,R2,MAPE_%,melhores_parametros
 Persistencia lag-1,1139.220551378446,2974.0093585925083,0.9799516556045821,20.008634914692568,-
-Random Forest,1448.9342171486717,3789.0345504022807,0.9674574947697115,22.641317593786432,"{""regressor__model__max_depth"": 12, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 400}"
-XGBoost,1746.6309638262392,6341.835389598822,0.9088359138563409,24.12261676803419,"{""regressor__model__colsample_bytree"": 0.9, ""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 500, ""regressor__model__subsample"": 0.9}"
+Random Forest,1520.6868369926426,3958.711793013687,0.9644776554658793,23.490483085250816,"{""regressor__model__max_depth"": 8, ""regressor__model__min_samples_leaf"": 2, ""regressor__model__n_estimators"": 100}"
+XGBoost,1662.5123990890675,6266.9864731011185,0.910975126119217,23.3506501045357,"{""regressor__model__colsample_bytree"": 0.8, ""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 300, ""regressor__model__subsample"": 0.8}"

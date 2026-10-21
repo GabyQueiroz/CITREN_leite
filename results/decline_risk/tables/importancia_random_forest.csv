@@ -1,0 +1,16 @@
+variable,importance
+leite_lag_1,0.12082134431318671
+leite_lag_2,0.11500862509439719
+temperatura_max_media_c_lag_1,0.08120995595426397
+vento_medio_ms_lag_1,0.07954516862747403
+ano,0.07289130894586533
+crescimento_previo,0.0700948950623449
+radiacao_media_kj_m2_lag_1,0.06185438575900209
+dias_secos_aprox_lag_1,0.058669284777332666
+umidade_media_pct_lag_1,0.055571252544769245
+precipitacao_anual_mm_lag_1,0.047053374991447655
+temperatura_media_c_lag_1,0.035253672788198194
+municipio_codigo_municipio_4108700,0.0048916862643396805
+municipio_codigo_municipio_4119509,0.004648259247744581
+municipio_codigo_municipio_4117404,0.004614869179057005
+municipio_codigo_municipio_4104055,0.004053572374689532
